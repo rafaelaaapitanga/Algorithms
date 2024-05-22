@@ -1,14 +1,12 @@
 #include <iostream>
 using namespace std;
 
-class Lista {
-private:
+struct Lista {
     int maxSize; // capacidade máxima do array
     int listSize; // numero atual de elementos
     int curr; // posicao atual do cursor
     int* listArray; // ponteiro p array c/ valores
 
-public:
     Lista (int size) {
         maxSize = size;
         listSize = curr = 0;
