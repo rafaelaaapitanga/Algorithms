@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 struct Node {
@@ -12,7 +11,7 @@ struct Node {
     }
 };
 
-struct Queue {
+struct Queue { // FIFO
 private:
     Node* front;
     Node* rear;
